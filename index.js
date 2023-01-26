@@ -4,7 +4,7 @@ const app = express();
 const server = require('http').Server(app);
 const path = require('path')
 
-baseurl = '*'
+baseurl = 'https://testdemo-fawn.vercel.app/'
 // baseurl = 'http://103.190.95.231:4200'
 
 const io = require('socket.io')(server, {
