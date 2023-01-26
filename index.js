@@ -61,6 +61,6 @@ io.on('connection', socket => {
 })
 
 PORT = 4500
-server.listen(PORT, '0.0.0.0', () => {
+server.listen(PORT,() => {
     console.log("Server run on http://localhost:" + PORT);
 });
